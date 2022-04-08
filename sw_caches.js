@@ -4,7 +4,7 @@ for(var i=1; i<4; i++) {
   userImages.push('/images/user-'+ i +'.jpg');
 }
 
-var appShellFiles = ['/index.html', '/about.html', '/portfolio.html', '/blog.html'];
+var appShellFiles = ['/index.html', '/inner-page.html', '/portfolio-details.html'];
 var contentToCache = appShellFiles.concat(userImages);
 
 //console.log(userImages);
